@@ -1,0 +1,7 @@
+{
+  "name": "VaporCal - Anesthetic Vaporizer Calibration",
+  "description": "Herramienta especializada para el reporte de calibración de vaporizadores con análisis estadístico, gráficas de error y resumen técnico asistido por IA.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
