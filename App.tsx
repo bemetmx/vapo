@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { CalibrationReport, CalibrationPoint, TolerancePoint, Incident, Status, Severity, Stats } from './types';
 import { NOMINAL_VALUES, TOLERANCE_RANGES, INITIAL_MEASUREMENTS, VAPORIZER_MODELS } from './constants';
-import { generateCalibrationObservations } from './src/services/geminiService';
+import { generateCalibrationObservations } from './services/geminiService';
 import { Layout } from './components/Layout';
 import { IncidentForm } from './components/IncidentForm';
 import { IncidentCard } from './components/IncidentCard';
